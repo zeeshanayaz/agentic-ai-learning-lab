@@ -1,0 +1,15 @@
+python -m venv .venv
+source .venv/bin/activate   # Linux / macOS
+.venv\Scripts\activate      # Windows
+
+pip install fastapi uvicorn
+
+uvicorn main:app --reload
+
+http://127.0.0.1:8000/docs
+
+http://127.0.0.1:8000/redoc
+
+URI Uniform Resource Identifier
+
+
